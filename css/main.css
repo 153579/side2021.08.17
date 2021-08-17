@@ -120,7 +120,7 @@ table {
 body {
   background-color: #7f5a83;
   background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
-  font-family: monospace;
+  font-family: 'Stylish', sans-serif;
   color: #ffffff;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -193,7 +193,7 @@ body .top .perspective .card .thumb:after {
   left: -60px;
   top: 40px;
   width: 100%;
-  height: 100%;
+  height: 108%;
   z-index: -1;
   -webkit-filter: blur(55px);
           filter: blur(55px);
@@ -212,7 +212,7 @@ body .top .perspective .card h2 {
 body .top .perspective .card span {
   position: absolute;
   bottom: 40px;
-  right: -280px;
+  right: -200px;
   font-size: 37px;
   font-weight: 400;
   -webkit-transform: translateZ(35px);

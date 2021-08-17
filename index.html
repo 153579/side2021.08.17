@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,6 +10,7 @@
     <link rel="stylesheet" href="css/reset.min.css">
     <link rel="stylesheet" href="css/main.min.css">
 </head>
+
 <body>
     <div class="top">
         <div class="perspective">
@@ -16,10 +18,25 @@
                 <div class="thumb">
 
                 </div>
-                <h2>Virtual Parallax</h2>
-                <span>Dreaming To Realistics</span>
+                <h2>Park Dong Gyu</h2>
+                <span>Side 2021 . 08 . 17</span>
             </div>
         </div>
     </div>
+    <script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script>
+        var o = $(".card");
+
+        $(".top").on("mousemove", function (t) {
+            var e = -($(window).innerWidth() / 2 - t.pageX) / 30,
+                n = -($(window).innerHeight() / 2 - t.pageY) / 10;
+
+            o.attr("style", "transform: rotateY(" + e + "deg) rotateX(" + n +
+                "deg); -webkit-transform:rotateY(" + e + "deg) rotateX(" + n +
+                "deg); -moz-transform:rotateY(" + e + "deg) rotateX(" + n + "deg)");
+        })
+    </script>
+
 </body>
+
 </html>

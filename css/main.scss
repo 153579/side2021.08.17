@@ -7,7 +7,7 @@
 body {
     background-color: $mainColor;
     background-image: linear-gradient(315deg, $mainColor 0%, #0d324d 74%);
-    font-family: monospace;
+    font-family: 'Stylish', sans-serif;
     color: #ffffff;
     display: flex;
     justify-content: center;
@@ -43,7 +43,7 @@ body {
                     border-radius: 15px;
                     box-sizing: border-box;
                     border-style: solid;
-                    border-image:  linear-gradient(315deg, $mainColor 0%, #0d324d 74%);;
+                    border-image:  linear-gradient(315deg, $mainColor 0%, #0d324d 74%);
                     border-image-slice: 1;
                     border-image-width: 1px;
 
@@ -55,7 +55,7 @@ body {
                         left: -60px;
                         top: 40px;
                         width: 100%;
-                        height: 100%;
+                        height: 108%;
                         z-index: -1;
                         filter: blur(55px);
                     }
@@ -73,7 +73,7 @@ body {
                 span {
                     position: absolute;
                     bottom: 40px;
-                    right: -280px;
+                    right: -200px;
                     font-size: 37px;
                     font-weight: 400;
                     transform: translateZ(35px);
